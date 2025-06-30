@@ -124,7 +124,7 @@ skyrate/
    - Form validation with styled alerts
 
 5. **Ratings Page** (`ratings.html`)
-   - Display all submitted reviews
+   - Display all submitted reviews from feedback page
    - Rating statistics and analytics
    - Advanced filtering and sorting
    - Beautiful review cards with user avatars
@@ -132,35 +132,12 @@ skyrate/
 ### Interactive Elements:
 - ⚡ **Dynamic Search** with real-time results
 - 🎯 **Quick Search Buttons** for popular destinations
-- 📧 **Newsletter Subscription** with confirmation
+- 📧 **Newsletter Subscription** with confirmations
 - 🔔 **Custom Alert System** for user feedback
 - 🎨 **Hover Animations** on cards and buttons
 - 📱 **Responsive Navigation** with mobile menu
 
-## 💡 Code Quality Features
 
-### ES6+ JavaScript:
-- **Classes** for object-oriented structure
-- **Async/Await** for API calls
-- **Arrow Functions** for cleaner syntax
-- **Template Literals** for dynamic HTML
-- **Modules** concept with class organization
-- **Error Handling** with try-catch blocks
-
-### CSS Best Practices:
-- **CSS Variables** for theme consistency
-- **BEM-like** naming conventions
-- **Responsive Design** with media queries
-- **Performance** optimized animations
-- **Accessibility** focused styling
-
-## 🌐 Browser Support
-
-- ✅ Chrome 70+
-- ✅ Firefox 65+
-- ✅ Safari 12+
-- ✅ Edge 79+
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## 📱 Responsive Design
 
@@ -175,52 +152,5 @@ skyrate/
 - **Invalid Searches** - Helpful suggestions
 - **Loading States** - Visual feedback during operations
 
-## 🎨 Design Philosophy
-
-- **Modern Aesthetics** - Clean, contemporary design
-- **User Experience** - Intuitive navigation and interactions
-- **Performance** - Optimized loading and animations
-- **Accessibility** - WCAG guidelines compliance
-- **Mobile First** - Responsive design approach
-
-## 🚀 Getting Started
-
-1. **Clone or download** the project files
-2. **Open `index.html`** in a modern web browser
-3. **Explore destinations** using the search functionality
-4. **Test responsiveness** by resizing the browser window
-5. **Try the alert system** by interacting with forms
-
-## 📝 Project Requirements Met
-
-✅ **HTML5 Semantic Structure**  
-✅ **CSS3 with Flexbox and Bootstrap 5**  
-✅ **Responsive Design**  
-✅ **JavaScript ES6 Classes Only**  
-✅ **5 Pages with Consistent Navigation (exceeds minimum requirement)**  
-✅ **Public API Integration (REST Countries)**  
-✅ **Error Handling and Empty States**  
-✅ **2+ CSS Transitions**  
-✅ **Custom UI Requirement (Alert System)**  
-✅ **Individual Work**  
-
-## 🎓 Learning Outcomes
-
-This project demonstrates proficiency in:
-- Modern web development practices
-- API integration and error handling
-- Responsive design implementation
-- JavaScript ES6+ features
-- CSS animations and transitions
-- User experience design
-- Code organization and documentation
-
-## 📞 Contact Information
-
-**Developer:** Sola Sarkis  
-**Email:** sola.sarkis@skyrate.com  
-**Phone:** +1 (555) 123-4567  
-
----
 
 **© 2025 Skyrate - Created by Sola Sarkis. All rights reserved.** 
