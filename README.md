@@ -162,8 +162,6 @@ skyrate/
 - **Loading States** - Visual feedback during operations
 
 
-<<<<<<< HEAD
+
 **© 2025 Skyrate - Created by Sola Sarkis. All rights reserved.** 
-=======
-**© 2025 Skyrate - Created by Sola Sarkis. All rights reserved.** 
->>>>>>> dc4745adfaa4a8f06c5ac56e204bf2e02e3266ae
+
