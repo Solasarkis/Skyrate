@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Skyrate</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">
+                <i class="fas fa-plane me-2"></i>Skyrate
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinations.html">
+                            <i class="fas fa-globe me-1"></i>Destinations
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">
+                            <i class="fas fa-comment me-1"></i>Feedback
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ratings.html">
+                            <i class="fas fa-star me-1"></i>Ratings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">
+                            <i class="fas fa-info-circle me-1"></i>About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold mb-3">About Skyrate</h1>
+                    <p class="lead">
+                        Learn more about our mission to make travel planning easier and more exciting for everyone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Alert Container for User Feedback -->
+    <div id="alertContainer" class="alert-container"></div>
+
+    <!-- About Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h2 class="display-5 fw-bold text-primary mb-4">Our Story</h2>
+                        <p class="lead text-muted mb-4">
+                            Skyrate was born from a passion for travel and a desire to make destination discovery 
+                            accessible to everyone. We believe that every journey begins with curiosity and the 
+                            right information.
+                        </p>
+                        <p class="mb-4">
+                            Our platform provides comprehensive country information using reliable APIs, helping 
+                            travelers make informed decisions about their next adventure. From basic demographics 
+                            to cultural insights, we bring the world to your fingertips.
+                        </p>
+                        <div class="stats-grid row g-3">
+                            <div class="col-6">
+                                <div class="stat-item text-center p-3 bg-light rounded">
+                                    <h3 class="fw-bold text-primary mb-1">195</h3>
+                                    <p class="text-muted mb-0">Countries</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-item text-center p-3 bg-light rounded">
+                                    <h3 class="fw-bold text-primary mb-1">24/7</h3>
+                                    <p class="text-muted mb-0">Availability</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image text-center">
+                        <i class="fas fa-globe-americas text-primary" style="font-size: 15rem; opacity: 0.1;"></i>
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <i class="fas fa-plane text-primary" style="font-size: 4rem;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Service Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="service-card card border-0 shadow-lg">
+                        <div class="card-body p-5 text-center">
+                            <div class="service-icon mb-4">
+                                <div class="avatar-circle mx-auto">
+                                    <i class="fas fa-compass fa-3x text-white"></i>
+                                </div>
+                            </div>
+                            <h3 class="fw-bold mb-2">Skyrate Travel Platform</h3>
+                            <p class="text-primary mb-3">Your Ultimate Travel Companion</p>
+                            <p class="text-muted mb-4">
+                                Skyrate provides comprehensive travel information and destination insights 
+                                to help you plan your perfect journey. Our platform combines cutting-edge 
+                                technology with reliable data sources to deliver an exceptional user experience.
+                            </p>
+                            <div class="service-features mb-4">
+                                <span class="badge bg-primary me-2 mb-2">Country Information</span>
+                                <span class="badge bg-primary me-2 mb-2">Travel Statistics</span>
+                                <span class="badge bg-primary me-2 mb-2">Cultural Insights</span>
+                                <span class="badge bg-primary me-2 mb-2">Smart Search</span>
+                                <span class="badge bg-primary me-2 mb-2">Mobile Friendly</span>
+                                <span class="badge bg-primary me-2 mb-2">Real-time Data</span>
+                            </div>
+                            <div class="service-stats row g-3">
+                                <div class="col-4">
+                                    <div class="stat-item bg-white p-3 rounded shadow-sm">
+                                        <h4 class="fw-bold text-primary mb-1">195+</h4>
+                                        <small class="text-muted">Countries</small>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="stat-item bg-white p-3 rounded shadow-sm">
+                                        <h4 class="fw-bold text-primary mb-1">24/7</h4>
+                                        <small class="text-muted">Available</small>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="stat-item bg-white p-3 rounded shadow-sm">
+                                        <h4 class="fw-bold text-primary mb-1">Free</h4>
+                                        <small class="text-muted">To Use</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h3 class="fw-bold mb-3">Ready to Explore?</h3>
+                    <p class="lead mb-4">
+                        Start discovering amazing destinations around the world with Skyrate.
+                    </p>
+                    <a href="destinations.html" class="btn btn-accent btn-lg">
+                        <i class="fas fa-search me-2"></i>Search Destinations
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="fas fa-plane me-2"></i>Skyrate
+                    </h5>
+                    <p class="text-muted">
+                        Your ultimate travel companion for discovering amazing destinations around the world.
+                        Created by Sola Sarkis.
+                    </p>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="destinations.html" class="text-muted text-decoration-none">Destinations</a></li>
+                        <li><a href="feedback.html" class="text-muted text-decoration-none">Feedback</a></li>
+                        <li><a href="ratings.html" class="text-muted text-decoration-none">Ratings</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <p class="text-muted mb-1">
+                        <i class="fas fa-envelope me-2"></i>solasarkis7@gmail.com
+                    </p>
+                    <p class="text-muted">
+                        <i class="fas fa-phone me-2"></i>+96170465543
+                    </p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Follow Us</h6>
+                    <div class="social-links">
+                        <a href="#" class="text-muted me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="text-muted mb-0">
+                    &copy; 2025 Skyrate - Created by Sola Sarkis. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html> 

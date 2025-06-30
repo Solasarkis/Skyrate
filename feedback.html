@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Skyrate</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">
+                <i class="fas fa-plane me-2"></i>Skyrate
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destinations.html">
+                            <i class="fas fa-globe me-1"></i>Destinations
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="feedback.html">
+                            <i class="fas fa-comment me-1"></i>Feedback
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ratings.html">
+                            <i class="fas fa-star me-1"></i>Ratings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="fas fa-info-circle me-1"></i>About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 fw-bold mb-3">Share Your Feedback</h1>
+                    <p class="lead">
+                        Help us improve Skyrate by sharing your thoughts, suggestions, and travel experiences.
+                        Your feedback is invaluable to making this platform better for everyone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Alert Container for User Feedback -->
+    <div id="alertContainer" class="alert-container"></div>
+
+    <!-- Feedback Form Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="feedback-card card shadow-lg border-0">
+                        <div class="card-body p-5">
+                            <div class="text-center mb-4">
+                                <div class="feedback-icon mb-3">
+                                    <i class="fas fa-comments fa-3x text-primary"></i>
+                                </div>
+                                <h3 class="fw-bold text-primary">We Value Your Opinion</h3>
+                                <p class="text-muted">
+                                    Your feedback helps us create better travel experiences for everyone.
+                                </p>
+                            </div>
+
+                            <form id="feedbackForm" class="needs-validation" novalidate>
+                                <div class="row g-4">
+                                    <!-- Personal Information -->
+                                    <div class="col-md-6">
+                                        <label for="firstName" class="form-label fw-semibold">
+                                            <i class="fas fa-user me-2 text-primary"></i>First Name
+                                        </label>
+                                        <input type="text" class="form-control form-control-lg" id="firstName" required>
+                                        <div class="invalid-feedback">
+                                            Please provide your first name.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <label for="lastName" class="form-label fw-semibold">
+                                            <i class="fas fa-user me-2 text-primary"></i>Last Name
+                                        </label>
+                                        <input type="text" class="form-control form-control-lg" id="lastName" required>
+                                        <div class="invalid-feedback">
+                                            Please provide your last name.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="email" class="form-label fw-semibold">
+                                            <i class="fas fa-envelope me-2 text-primary"></i>Email Address
+                                        </label>
+                                        <input type="email" class="form-control form-control-lg" id="email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid email address.
+                                        </div>
+                                    </div>
+
+                                    <!-- Feedback Type -->
+                                    <div class="col-12">
+                                        <label for="feedbackType" class="form-label fw-semibold">
+                                            <i class="fas fa-tag me-2 text-primary"></i>Feedback Type
+                                        </label>
+                                        <select class="form-select form-select-lg" id="feedbackType" required>
+                                            <option value="">Choose feedback type...</option>
+                                            <option value="general">General Feedback</option>
+                                            <option value="bug">Bug Report</option>
+                                            <option value="feature">Feature Request</option>
+                                            <option value="design">Design Suggestion</option>
+                                            <option value="content">Content Improvement</option>
+                                            <option value="other">Other</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please select a feedback type.
+                                        </div>
+                                    </div>
+
+                                    <!-- Rating -->
+                                    <div class="col-12">
+                                        <label class="form-label fw-semibold">
+                                            <i class="fas fa-star me-2 text-primary"></i>Overall Rating
+                                        </label>
+                                        <div class="rating-container">
+                                            <div class="star-rating" id="starRating">
+                                                <span class="star" data-rating="1">★</span>
+                                                <span class="star" data-rating="2">★</span>
+                                                <span class="star" data-rating="3">★</span>
+                                                <span class="star" data-rating="4">★</span>
+                                                <span class="star" data-rating="5">★</span>
+                                            </div>
+                                            <small class="text-muted ms-3" id="ratingText">Click to rate</small>
+                                            <input type="hidden" id="rating" name="rating" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Feedback Message -->
+                                    <div class="col-12">
+                                        <label for="message" class="form-label fw-semibold">
+                                            <i class="fas fa-comment-alt me-2 text-primary"></i>Your Feedback
+                                        </label>
+                                        <textarea class="form-control form-control-lg" id="message" rows="6" 
+                                                placeholder="Share your thoughts, suggestions, or report issues..." required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide your feedback message.
+                                        </div>
+                                        <div class="form-text">
+                                            <span id="charCount">0</span>/500 characters
+                                        </div>
+                                    </div>
+
+                                    <!-- Consent -->
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="consent" required>
+                                            <label class="form-check-label" for="consent">
+                                                I agree to allow Skyrate to use my feedback for improving the platform
+                                            </label>
+                                            <div class="invalid-feedback">
+                                                Please agree to our feedback policy.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Submit Button -->
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg px-5">
+                                            <i class="fas fa-paper-plane me-2"></i>Submit Feedback
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Feedback Matters Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-5 fw-bold text-primary mb-3">Why Your Feedback Matters</h2>
+                    <p class="lead text-muted">
+                        Every piece of feedback helps us build a better travel platform for adventurers worldwide.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feedback-benefit card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="benefit-icon mb-3">
+                                <i class="fas fa-lightbulb fa-3x text-warning"></i>
+                            </div>
+                            <h5 class="fw-bold">Improve Features</h5>
+                            <p class="text-muted">
+                                Your suggestions help us add new features and improve existing ones to better serve travelers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feedback-benefit card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="benefit-icon mb-3">
+                                <i class="fas fa-bug fa-3x text-danger"></i>
+                            </div>
+                            <h5 class="fw-bold">Fix Issues</h5>
+                            <p class="text-muted">
+                                Bug reports help us identify and resolve problems quickly to ensure a smooth experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feedback-benefit card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="benefit-icon mb-3">
+                                <i class="fas fa-users fa-3x text-success"></i>
+                            </div>
+                            <h5 class="fw-bold">Community Driven</h5>
+                            <p class="text-muted">
+                                Together, we're building a platform that truly serves the travel community's needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Alternative Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h3 class="fw-bold mb-3">Prefer Direct Contact?</h3>
+                    <p class="lead mb-4">
+                        You can also reach out to us directly through these channels.
+                    </p>
+                    <div class="contact-options">
+                        <button class="btn btn-outline-light btn-lg me-3 mb-3" onclick="showContactAlert()">
+                            <i class="fas fa-envelope me-2"></i>Email Us
+                        </button>
+                        <button class="btn btn-outline-light btn-lg mb-3" onclick="showPhoneAlert()">
+                            <i class="fas fa-phone me-2"></i>Call Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="fas fa-plane me-2"></i>Skyrate
+                    </h5>
+                    <p class="text-muted">
+                        Your ultimate travel companion for discovering amazing destinations around the world.
+                        Created by Sola Sarkis.
+                    </p>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="destinations.html" class="text-muted text-decoration-none">Destinations</a></li>
+                        <li><a href="feedback.html" class="text-muted text-decoration-none">Feedback</a></li>
+                        <li><a href="ratings.html" class="text-muted text-decoration-none">Ratings</a></li>
+                        <li><a href="about.html" class="text-muted text-decoration-none">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <p class="text-muted mb-1">
+                        <i class="fas fa-envelope me-2"></i>solasarkis7@gmail.com
+                    </p>
+                    <p class="text-muted">
+                        <i class="fas fa-phone me-2"></i>+96170465543
+                    </p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-3">Follow Us</h6>
+                    <div class="social-links">
+                        <a href="#" class="text-muted me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-muted me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="text-muted mb-0">
+                    &copy; 2025 Skyrate - Created by Sola Sarkis. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html> 
