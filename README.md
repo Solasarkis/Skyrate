@@ -21,12 +21,12 @@ A modern, responsive travel website built as a full-stack development project. S
 Skyrate is a modern travel discovery platform that provides detailed information about countries worldwide. The website features a clean, intuitive design with powerful search functionality, interactive elements, and comprehensive destination data. Users can explore countries, learn about their cultures, and gather essential travel information all in one place.
 
 ### Key Features:
-- 🔍 **Smart Country Search** - Find any country with intelligent search suggestions
-- 🌍 **Comprehensive Data** - Population, languages, currencies, capitals, and more
-- 📱 **Fully Responsive** - Perfect experience on all devices
-- ✨ **Modern UI/UX** - Beautiful animations and interactive elements
-- 🚨 **Custom Alert System** - Styled user feedback messages
-- 🎨 **CSS Transitions** - Smooth animations and hover effects
+-  **Smart Country Search** - Find any country with intelligent search suggestions
+-  **Comprehensive Data** - Population, languages, currencies, capitals, and more
+-  **Fully Responsive** - Perfect experience on all devices
+-  **Modern UI/UX** - Beautiful animations and interactive elements
+-  **Custom Alert System** - Styled user feedback messages
+-  **CSS Transitions** - Smooth animations and hover effects
 
 ## 🎯 Custom UI Requirement Implementation
 
@@ -51,13 +51,6 @@ The alert system is clearly implemented and commented in the JavaScript code and
 - **Bootstrap 5** - Responsive design framework
 - **Font Awesome** - Icon library
 - **Google Fonts** - Typography (Poppins & Playfair Display)
-
-### Web Standards:
-- ✅ **Semantic HTML5** elements (header, nav, main, section, footer)
-- ✅ **CSS3 Features** - Flexbox, Grid, CSS Variables, Animations
-- ✅ **Responsive Design** - Mobile-first approach
-- ✅ **Accessibility** - ARIA labels, keyboard navigation, focus management
-- ✅ **SEO Optimized** - Meta tags, semantic structure
 
 ## 📁 Project Structure
 
@@ -138,6 +131,22 @@ skyrate/
 - 📱 **Responsive Navigation** with mobile menu
 
 
+## 💡 Code Quality Features
+
+### ES6+ JavaScript:
+- **Classes** for object-oriented structure
+- **Async/Await** for API calls
+- **Arrow Functions** for cleaner syntax
+- **Template Literals** for dynamic HTML
+- **Modules** concept with class organization
+- **Error Handling** with try-catch blocks
+
+### CSS Best Practices:
+- **CSS Variables** for theme consistency
+- **BEM-like** naming conventions
+- **Responsive Design** with media queries
+- **Performance** optimized animations
+- **Accessibility** focused styling
 
 ## 📱 Responsive Design
 
@@ -153,4 +162,8 @@ skyrate/
 - **Loading States** - Visual feedback during operations
 
 
+<<<<<<< HEAD
 **© 2025 Skyrate - Created by Sola Sarkis. All rights reserved.** 
+=======
+**© 2025 Skyrate - Created by Sola Sarkis. All rights reserved.** 
+>>>>>>> dc4745adfaa4a8f06c5ac56e204bf2e02e3266ae
