@@ -21,12 +21,12 @@ A modern, responsive travel website built as a full-stack development project. S
 Skyrate is a modern travel discovery platform that provides detailed information about countries worldwide. The website features a clean, intuitive design with powerful search functionality, interactive elements, and comprehensive destination data. Users can explore countries, learn about their cultures, and gather essential travel information all in one place.
 
 ### Key Features:
-- 🔍 **Smart Country Search** - Find any country with intelligent search suggestions
-- 🌍 **Comprehensive Data** - Population, languages, currencies, capitals, and more
-- 📱 **Fully Responsive** - Perfect experience on all devices
-- ✨ **Modern UI/UX** - Beautiful animations and interactive elements
-- 🚨 **Custom Alert System** - Styled user feedback messages
-- 🎨 **CSS Transitions** - Smooth animations and hover effects
+-  **Smart Country Search** - Find any country with intelligent search suggestions
+-  **Comprehensive Data** - Population, languages, currencies, capitals, and more
+-  **Fully Responsive** - Perfect experience on all devices
+-  **Modern UI/UX** - Beautiful animations and interactive elements
+-  **Custom Alert System** - Styled user feedback messages
+-  **CSS Transitions** - Smooth animations and hover effects
 
 ## 🎯 Custom UI Requirement Implementation
 
@@ -51,13 +51,6 @@ The alert system is clearly implemented and commented in the JavaScript code and
 - **Bootstrap 5** - Responsive design framework
 - **Font Awesome** - Icon library
 - **Google Fonts** - Typography (Poppins & Playfair Display)
-
-### Web Standards:
-- ✅ **Semantic HTML5** elements (header, nav, main, section, footer)
-- ✅ **CSS3 Features** - Flexbox, Grid, CSS Variables, Animations
-- ✅ **Responsive Design** - Mobile-first approach
-- ✅ **Accessibility** - ARIA labels, keyboard navigation, focus management
-- ✅ **SEO Optimized** - Meta tags, semantic structure
 
 ## 📁 Project Structure
 
@@ -154,13 +147,6 @@ skyrate/
 - **Performance** optimized animations
 - **Accessibility** focused styling
 
-## 🌐 Browser Support
-
-- ✅ Chrome 70+
-- ✅ Firefox 65+
-- ✅ Safari 12+
-- ✅ Edge 79+
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## 📱 Responsive Design
 
@@ -175,52 +161,5 @@ skyrate/
 - **Invalid Searches** - Helpful suggestions
 - **Loading States** - Visual feedback during operations
 
-## 🎨 Design Philosophy
-
-- **Modern Aesthetics** - Clean, contemporary design
-- **User Experience** - Intuitive navigation and interactions
-- **Performance** - Optimized loading and animations
-- **Accessibility** - WCAG guidelines compliance
-- **Mobile First** - Responsive design approach
-
-## 🚀 Getting Started
-
-1. **Clone or download** the project files
-2. **Open `index.html`** in a modern web browser
-3. **Explore destinations** using the search functionality
-4. **Test responsiveness** by resizing the browser window
-5. **Try the alert system** by interacting with forms
-
-## 📝 Project Requirements Met
-
-✅ **HTML5 Semantic Structure**  
-✅ **CSS3 with Flexbox and Bootstrap 5**  
-✅ **Responsive Design**  
-✅ **JavaScript ES6 Classes Only**  
-✅ **5 Pages with Consistent Navigation (exceeds minimum requirement)**  
-✅ **Public API Integration (REST Countries)**  
-✅ **Error Handling and Empty States**  
-✅ **2+ CSS Transitions**  
-✅ **Custom UI Requirement (Alert System)**  
-✅ **Individual Work**  
-
-## 🎓 Learning Outcomes
-
-This project demonstrates proficiency in:
-- Modern web development practices
-- API integration and error handling
-- Responsive design implementation
-- JavaScript ES6+ features
-- CSS animations and transitions
-- User experience design
-- Code organization and documentation
-
-## 📞 Contact Information
-
-**Developer:** Sola Sarkis  
-**Email:** sola.sarkis@skyrate.com  
-**Phone:** +1 (555) 123-4567  
-
----
 
 **© 2025 Skyrate - Created by Sola Sarkis. All rights reserved.** 
