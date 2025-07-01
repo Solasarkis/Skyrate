@@ -8,7 +8,7 @@ A modern, responsive travel website built as a full-stack development project. S
 **Project:** Full Stack Development - Travel Website  
 **Created:** 2025  
 
-## 🌐 API Used
+## API Used
 
 **Primary API:** [REST Countries API](https://restcountries.com/)  
 - **Endpoint:** `https://restcountries.com/v3.1/`
@@ -16,7 +16,7 @@ A modern, responsive travel website built as a full-stack development project. S
 - **Authentication:** None required (completely free)
 - **Documentation:** [REST Countries Documentation](https://restcountries.com/)
 
-## 📋 Project Description
+## Project Description
 
 Skyrate is a modern travel discovery platform that provides detailed information about countries worldwide. The website features a clean, intuitive design with powerful search functionality, interactive elements, and comprehensive destination data. Users can explore countries, learn about their cultures, and gather essential travel information all in one place.
 
@@ -28,21 +28,21 @@ Skyrate is a modern travel discovery platform that provides detailed information
 -  **Custom Alert System** - Styled user feedback messages
 -  **CSS Transitions** - Smooth animations and hover effects
 
-## 🎯 Custom UI Requirement Implementation
+## Custom UI Requirement Implementation
 
 **Requirement:** Display user feedback with styled alert messages
 
 **Implementation:** Custom `AlertManager` class providing:
-- ✅ Multiple alert types (success, info, warning, danger)
-- ✅ Smooth slide-in/slide-out animations
-- ✅ Auto-dismiss functionality
-- ✅ Custom styling with gradients and icons
-- ✅ Responsive design for mobile devices
-- ✅ Accessible markup with ARIA attributes
+-  Multiple alert types (success, info, warning, danger)
+-  Smooth slide-in/slide-out animations
+-  Auto-dismiss functionality
+-  Custom styling with gradients and icons
+-  Responsive design for mobile devices
+-  Accessible markup with ARIA attributes
 
 The alert system is clearly implemented and commented in the JavaScript code and provides user feedback for various interactions including search results, form submissions, and general notifications.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend Technologies:
 - **HTML5** - Semantic markup with proper structure
@@ -52,7 +52,7 @@ The alert system is clearly implemented and commented in the JavaScript code and
 - **Font Awesome** - Icon library
 - **Google Fonts** - Typography (Poppins & Playfair Display)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 skyrate/
@@ -66,7 +66,7 @@ skyrate/
 └── README.md         # Project documentation
 ```
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### JavaScript ES6 Classes:
 1. **`SkyrateTravelApp`** - Main application controller
@@ -89,7 +89,7 @@ skyrate/
 - **Caching system** for improved performance
 - **Responsive error messages** via custom alert system
 
-## 🚀 Features Overview
+## Features Overview
 
 ### Page Structure:
 1. **Home Page** (`index.html`)
@@ -123,15 +123,15 @@ skyrate/
    - Beautiful review cards with user avatars
 
 ### Interactive Elements:
-- ⚡ **Dynamic Search** with real-time results
-- 🎯 **Quick Search Buttons** for popular destinations
-- 📧 **Newsletter Subscription** with confirmations
-- 🔔 **Custom Alert System** for user feedback
-- 🎨 **Hover Animations** on cards and buttons
-- 📱 **Responsive Navigation** with mobile menu
+-  **Dynamic Search** with real-time results
+-  **Quick Search Buttons** for popular destinations
+-  **Newsletter Subscription** with confirmations
+-  **Custom Alert System** for user feedback
+-  **Hover Animations** on cards and buttons
+-  **Responsive Navigation** with mobile menu
 
 
-## 💡 Code Quality Features
+##  Code Quality Features
 
 ### ES6+ JavaScript:
 - **Classes** for object-oriented structure
@@ -148,13 +148,13 @@ skyrate/
 - **Performance** optimized animations
 - **Accessibility** focused styling
 
-## 📱 Responsive Design
+## Responsive Design
 
 - **Desktop** - Full featured experience with hover effects
 - **Tablet** - Optimized layout with touch interactions
 - **Mobile** - Compact design with mobile-friendly navigation
 
-## 🔄 Error Handling
+## Error Handling
 
 - **Network Errors** - Graceful fallbacks with user notifications
 - **API Failures** - Informative error messages
